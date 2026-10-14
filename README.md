@@ -1,3 +1,7 @@
-project: Канбан API TaskFlow
-planned stack: FastAPI, PostgreSQL, SQLAlchemy, pytest, Docker, ...
-status: in progress, learning project 
+# Project: Kanban API TaskFlow
+
+#### Planned stack: FastAPI, PostgreSQL, SQLAlchemy, pytest, Docker, 
+
+#### Status: in progress, learning project
+
+###### started 2026.10.14 
