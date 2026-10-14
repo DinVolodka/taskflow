@@ -1,0 +1,3 @@
+project: Канбан API TaskFlow
+planned stack: FastAPI, PostgreSQL, SQLAlchemy, pytest, Docker, ...
+status: in progress, learning project 

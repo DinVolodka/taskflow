@@ -1,0 +1,20 @@
+# виртуальное окружение
+.venv/
+venv/
+
+# кэши и артефакты Python
+__pycache__/
+*.py[cod]
+
+# кэши инструментов (пригодятся с М3)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# локальные данные и секреты
+.env
+*.sqlite3
+*.db
+
+# логи
+*.log
