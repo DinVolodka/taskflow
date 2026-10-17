@@ -1,0 +1,14 @@
+5:2025-10-13 08:04:44 ERROR auth: login failed user=carol
+8:2025-10-13 08:09:02 ERROR db: connection lost
+11:2025-10-13 08:12:30 ERROR auth: login failed user=bob
+15:2025-10-13 08:18:41 ERROR auth: login failed user=bob
+19:2025-10-13 08:25:08 ERROR tasks: task 16 not found
+24:2025-10-13 08:34:51 ERROR db: connection lost
+29:2025-10-13 08:45:11 ERROR auth: login failed user=dave
+3:2025-10-13 08:02:55 WARN  db: slow query 840ms
+7:2025-10-13 08:07:31 WARN  tasks: task 12 moved to done by user=ann
+12:2025-10-13 08:14:05 WARN  db: slow query 1210ms
+17:2025-10-13 08:22:17 WARN  db: slow query 960ms
+22:2025-10-13 08:31:02 WARN  auth: too many attempts user=carol
+26:2025-10-13 08:38:19 WARN  db: slow query 1540ms
+31:2025-10-13 08:49:38 WARN  db: slow query 700ms
