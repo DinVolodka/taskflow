@@ -132,6 +132,16 @@
 ```
 11. Расследование. Сколько ERROR-пришлось на каждого пользователя? После ответа объясни в commands.md: почему сумма по пользователям не совпадает с общим числом ERROR-строк? Куда «пропала» разница?
 
+```bash
+❯ grep -oE "ERROR .+user=[a-zA-Z0-9]+\b" app.log | sort | uniq -c
+      2 ERROR auth: login failed user=bob
+      1 ERROR auth: login failed user=carol
+      1 ERROR auth: login failed user=dave
+❯ grep -E --color=auto 'ERROR' app.log | grep -vE "ERROR .+user=[a-zA-Z0-9]+\b"
+2025-10-13 08:09:02 ERROR db: connection lost
+2025-10-13 08:25:08 ERROR tasks: task 16 not found
+2025-10-13 08:34:51 ERROR db: connection lost
+```
 ```
 на dave, carol по 1 ERROR, а на bob пришлось по 2 ERRORs
 ответ: Кроме ERRORS при auth user еще есть ERRORs другого типа: потеря соединения с БД и "ERROR tasks: task 16 not found"
