@@ -1,15 +1,15 @@
 # TaskFlow — прогресс обучения
 
 ## Профиль
-- Старт: 2025-… (укажи дату)
-- ОС: Arch Linux, Python 3.14.6
+- Старт: 2026-10-14
+- ОС: Arch Linux, Python 3.14.7
 - Ритм: 12–24 ч/нед
 - Цель: junior backend Python (FastAPI) за ~6 месяцев
 
 ## Проект
 - TaskFlow — REST API канбан-менеджера задач
 - Стек: Python, FastAPI, SQLAlchemy, PostgreSQL, pytest, Docker
-- Репозиторий: <ссылка на GitHub после упражнения №0>
+- Репозиторий: <https://github.com/DinVolodka/taskflow>
 
 ## План (модули)
 - [x] М0. Инструменты (git, терминал, venv) — в работе
